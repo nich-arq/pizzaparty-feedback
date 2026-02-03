@@ -1,0 +1,52 @@
+name: Feature Request
+description: Suggest a new feature or improvement to an existing one
+labels: ["feature-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing your idea! We love hearing from our users.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Request type
+      options:
+        - New feature
+        - Improvement to existing feature
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe your idea
+      description: A clear description of what you'd like to see
+      placeholder: I'd love to be able to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem it solves
+      description: What problem would this solve? Why do you need it?
+      placeholder: This would help me because...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Have you considered any alternative solutions or workarounds?
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Any mockups, examples, or additional information
+    validations:
+      required: false

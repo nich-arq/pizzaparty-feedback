@@ -7,8 +7,7 @@ Welcome! This is the public feedback repository for [PizzaParty.menu](https://pi
 This repo is for:
 
 - 🐛 **Bug Reports** — Something not working? Let us know
-- 💡 **Feature Requests** — Have an idea for something new? We'd love to hear it
-- ✨ **Enhancements** — Suggestions to improve existing features
+- 💡 **Feature Requests** — Ideas for new features or improvements to existing ones
 - ❓ **Questions** — Need help with something?
 
 ## Contacting us privately
